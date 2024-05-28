@@ -11,8 +11,6 @@ Brain::Brain()
 	createBodyParts();
 }
 
-class Ear;
-
 void Brain::createBodyParts()
 {
 	ear = new Ear(this);
@@ -21,7 +19,6 @@ void Brain::createBodyParts()
 	hand = new Hand(this);
 	leg = new Leg(this);
 }
-
 
 void Brain::somethingHappenedToBodyPart(BodyPart* bodyPart)
 {
