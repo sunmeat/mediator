@@ -2,7 +2,6 @@
 
 Leg::Leg(Brain* brain) : BodyPart(brain) {}
 
-
 void Leg::kick()
 {
 	cout << "LEG: Just kicked offender in front of you...\n";
